@@ -15,7 +15,7 @@ The circuit is simulated in **Proteus**.
 ![Circuit Screenshot](LM35Interfacing.png)
 
 🧑‍💻 Code
-
+```
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(7, 8, 9, 10, 11, 12); // Adjust pins
@@ -41,7 +41,7 @@ void loop() {
   lcd.print(" C");
   delay(1000);
 }
-
+```
 🎯 How It Works
 
 1. LM35 produces an analog voltage proportional to temperature (10mV per °C).
